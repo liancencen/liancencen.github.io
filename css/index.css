@@ -126,19 +126,34 @@ svg {
     width: 10%;
 
 }
+.carousel-control-prev {
+    background: linear-gradient(90deg, rgb(0, 0, 0), transparent); /* 创建透明度渐变背景 */
+
+
+}.carousel-control-next{
+    background: linear-gradient(90deg, transparent, rgba(0, 0, 0)); /* 创建透明度渐变背景 */
+
+}
 
 .carousel-control-next:hover,
 .carousel-control-prev:hover {
-    background-color: rgba(0, 0, 0, 0.616);
+    background-color: rgba(0, 0, 0, 0.3);
 
 
 }
-.carousel-caption{
+
+.carousel-caption {
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
-   
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* 添加模糊边框效果 */
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 1), transparent); /* 创建透明度渐变背景 */
+
+
 }
-.carousel-caption h5,.carousel-caption p{
-   color: rgb(0, 0, 0);
-   font-weight: bolder;
+
+.carousel-caption h5,
+.carousel-caption p {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
 }
