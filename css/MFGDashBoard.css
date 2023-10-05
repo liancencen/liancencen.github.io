@@ -1,9 +1,27 @@
 .MFGDashBoard-title {
     font-family: fantasy;
     width: auto;
-    margin: 10px;
-    font-weight: bold;
-    color: rgb(87, 87, 87);
-    text-shadow: 3px 3px 1px rgb(255, 255, 255);
+    padding: 10px;
+    padding-left: 30px;
+    /* font-weight: bold; */
+    color: rgb(255, 255, 255);
+    text-shadow: 513px 3px 2px rgb(175, 117, 117);
     letter-spacing: 10px;
+    /* background-color:blanchedalmond 50% red 30%; */
+    background: linear-gradient(rgb(33, 37, 41), rgb(17, 9, 9));
+}
+
+hr {
+    width: 80%;
+    color: white;
+    /* border: 10px solid rgb(255, 255, 255); */
+    margin: 0 auto;
+    /* 將左右外邊距設為自動以置中 */
+    margin-bottom: 20px;
+}
+
+.img-7275 {
+    margin-left: 20px;
+    width: 700px;
+    border-radius: 20px;
 }
