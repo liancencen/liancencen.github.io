@@ -1,0 +1,9 @@
+.MFGDashBoard-title {
+    font-family: fantasy;
+    width: auto;
+    margin: 10px;
+    font-weight: bold;
+    color: rgb(87, 87, 87);
+    text-shadow: 3px 3px 1px rgb(255, 255, 255);
+    letter-spacing: 10px;
+}
