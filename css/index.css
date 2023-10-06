@@ -176,3 +176,9 @@ svg {
     border-color: rgba(255, 255, 255, 0.4);
     border-width: 2px;
 }
+
+.footer-content {
+    text-align: center;
+    margin-top: auto;
+    padding-bottom: 10px;
+}
