@@ -17,9 +17,8 @@ main {
 }
 
 .footer-content {
-
+    color: white;
     text-align: center;
     margin-top: auto;
-    padding-bottom: 0px;
-
+    padding-bottom: 10px;
 }
